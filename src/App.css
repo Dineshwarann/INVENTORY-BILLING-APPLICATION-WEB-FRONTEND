@@ -1,0 +1,48 @@
+.sidebar-section{
+    border: 2px solid black;
+}
+.topbar-section{
+    border-bottom: 5px solid black;
+    background-color: rgb(20, 175, 247);
+}
+.addtoproduct-formsection{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.authentication-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 175, 247);
+    height: 100vh;
+}
+.card-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.delete-button{
+    cursor: pointer;
+}
+.card-body-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-any{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+*::-webkit-scrollbar{
+    display:none;
+}
+.main-section{
+    background-color: rgb(20, 175, 247);
+    width: 100%;
+    height:150vh;
+}
