@@ -8,7 +8,7 @@ import { addSchema } from "../Helpers/Schema";
 
 export default function AddProductPage(){
 
-    const {loading,setLoading,result,setResult,productName,productCategory,productPrice,productQuantity,setProductName,setProductCategory,setProductQuantity,setProductPrice}=useContext(AppCtx);
+    const {loading,setLoading,result,setResult,setProductName,setProductQuantity,setProductPrice}=useContext(AppCtx);
     const navigate=useNavigate();
 
 
